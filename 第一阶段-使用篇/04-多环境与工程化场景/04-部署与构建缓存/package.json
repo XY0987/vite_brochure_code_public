@@ -1,0 +1,16 @@
+{
+  "name": "demo-04-deploy-cache",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "部署与缓存：base 子路径、codeSplitting 分包、manifest、内容哈希长效缓存、sourcemap",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:subpath": "vite build --base=/my-app/",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.1.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "demo-02-config",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "一份逐项注释的 vite.config.ts 范本（可运行）",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.1.0"
+  }
+}

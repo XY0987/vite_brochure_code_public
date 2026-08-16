@@ -1,0 +1,19 @@
+{
+  "name": "demo-05-03-single-bundler",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Vite 8 单打包器解锁的新能力之一：codeSplitting 多组声明式分包 + 模块级持久缓存观察",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "cache:demo": "node scripts/cache-demo.mjs"
+  },
+  "dependencies": {
+    "mitt": "^3.0.1"
+  },
+  "devDependencies": {
+    "vite": "^8.1.0"
+  }
+}

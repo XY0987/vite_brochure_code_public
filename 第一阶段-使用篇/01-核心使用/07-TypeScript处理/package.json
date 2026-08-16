@@ -1,0 +1,18 @@
+{
+  "name": "demo-07-typescript",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "演示 Vite 只转译不检查类型，以及 tsc --noEmit 卡点",
+  "scripts": {
+    "dev": "vite",
+    "build:unsafe": "vite build",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "vite": "^8.1.0"
+  }
+}

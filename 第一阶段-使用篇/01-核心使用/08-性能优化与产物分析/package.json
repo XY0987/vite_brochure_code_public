@@ -1,0 +1,19 @@
+{
+  "name": "demo-08-perf-analyze",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "分包、动态 import 与产物可视化分析",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "rollup-plugin-visualizer": "^5.12.0",
+    "vite": "^8.1.0"
+  }
+}

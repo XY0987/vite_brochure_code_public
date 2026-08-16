@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SSR 工程坑位演示</title>
+    <style>
+      body { font-family: system-ui, sans-serif; max-width: 720px; margin: 40px auto; }
+      section { border: 1px solid #ddd; border-radius: 8px; padding: 12px 16px; margin: 16px 0; }
+      h2 { margin: 0 0 8px; font-size: 16px; }
+      code { background: #f3f3f3; padding: 1px 4px; border-radius: 4px; }
+    </style>
+  </head>
+  <body>
+    <h1>SSR 四大工程坑位</h1>
+    <p>打开浏览器控制台看 hydration 检测日志（红框=不一致，绿框=一致）。</p>
+    <div id="app"><!--ssr-outlet--></div>
+
+    <!-- 服务端把它算好的 state 序列化下发，客户端复用，避免「各算各的」造成水合不一致 -->
+    <script>
+      window.__SSR_STATE__ = <!--ssr-state-->;
+    </script>
+    <script type="module" src="/src/entry-client.js"></script>
+  </body>
+</html>

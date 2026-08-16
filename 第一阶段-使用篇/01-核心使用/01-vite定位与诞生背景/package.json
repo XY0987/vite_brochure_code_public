@@ -1,0 +1,15 @@
+{
+  "name": "demo-01-vite-positioning",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "演示 Vite dev server 按需编译（原生 ESM）vs 生产构建打包的差异",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.1.0"
+  }
+}

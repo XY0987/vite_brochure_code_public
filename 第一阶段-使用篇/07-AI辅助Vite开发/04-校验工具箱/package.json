@@ -1,0 +1,11 @@
+{
+  "name": "demo-07-04-verify-toolkit",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "校验工具箱：生成可追溯的最小复现骨架，并对 dist 产物做客观对账（chunk/vendor/console/base）",
+  "scripts": {
+    "verify": "node scripts/verify-build.mjs 示例产物",
+    "new-repro": "node scripts/new-min-repro.mjs"
+  }
+}

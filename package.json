@@ -1,0 +1,16 @@
+{
+  "name": "vite-brochure-code",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "《Vite：从使用到精通》配套可运行 demo 仓库",
+  "engines": {
+    "node": ">=20.19 || >=22.12"
+  },
+  "scripts": {
+    "check:demos": "node scripts/check-demos.mjs",
+    "smoke:first-stage": "node scripts/smoke-first-stage.mjs",
+    "smoke:first-stage:dry": "node scripts/smoke-first-stage.mjs --dry-run",
+    "smoke:first-stage:install": "node scripts/smoke-first-stage.mjs --install"
+  }
+}

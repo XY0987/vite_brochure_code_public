@@ -1,0 +1,18 @@
+{
+  "name": "demo-04-environment-api",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Environment API：用一份配置并发构建 client / ssr / edge 三个环境、各跑不同运行时",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --outDir dist/client",
+    "start:ssr": "node scripts/run-server.mjs",
+    "start:edge": "node scripts/run-edge.mjs",
+    "show": "npm run build && npm run start:ssr && npm run start:edge"
+  },
+  "devDependencies": {
+    "vite": "^8.1.0"
+  }
+}

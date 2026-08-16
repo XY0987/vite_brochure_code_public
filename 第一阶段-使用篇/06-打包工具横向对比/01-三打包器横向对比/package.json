@@ -1,0 +1,15 @@
+{
+  "name": "demo-06-01-three-bundlers",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "把同一份源码分别喂给 esbuild / Rollup / Rolldown，同机同输入对比耗时、产物大小与 chunk 数",
+  "scripts": {
+    "compare": "node compare.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.0",
+    "rolldown": "^1.1.0",
+    "rollup": "^4.62.0"
+  }
+}

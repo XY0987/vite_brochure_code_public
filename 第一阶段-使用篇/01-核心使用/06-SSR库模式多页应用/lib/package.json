@@ -1,0 +1,22 @@
+{
+  "name": "demo-06-my-lib",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "库模式：产出 ESM + UMD 多格式产物",
+  "files": ["dist"],
+  "main": "./dist/my-lib.umd.js",
+  "module": "./dist/my-lib.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/my-lib.es.js",
+      "require": "./dist/my-lib.umd.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^8.1.0"
+  }
+}

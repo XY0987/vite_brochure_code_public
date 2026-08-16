@@ -1,0 +1,16 @@
+{
+  "name": "demo-06-03-vite-position",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "用探针确认 Vite 8 的 dev 和 build 都跑在同一个 Rolldown 上（单引擎），并打印 Vite 内部各引擎真实版本",
+  "scripts": {
+    "info": "node scripts/print-versions.mjs",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.1.0"
+  }
+}

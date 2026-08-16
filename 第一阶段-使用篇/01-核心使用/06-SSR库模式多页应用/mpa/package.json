@@ -1,0 +1,15 @@
+{
+  "name": "demo-06-mpa",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "多页应用：三个 HTML 入口",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.1.0"
+  }
+}

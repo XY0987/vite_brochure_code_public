@@ -1,0 +1,18 @@
+<template>
+  <div class="card">
+    <h1>{{ state.title }}</h1>
+    <button id="btn">count is {{ state.count }}</button>
+    <p class="tip">改这里的文案并保存 → 计数不归零（这就是插件注入的 HMR 在起效）</p>
+  </div>
+</template>
+
+<state>
+{ title: '迷你框架 myx', count: 0 }
+</state>
+
+<setup>
+root.querySelector('#btn').addEventListener('click', () => {
+  state.count++;
+  update();
+});
+</setup>

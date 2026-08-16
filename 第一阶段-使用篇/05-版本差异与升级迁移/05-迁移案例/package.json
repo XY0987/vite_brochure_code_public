@@ -1,0 +1,15 @@
+{
+  "name": "demo-05-05-migration",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "迁移案例：把 webpack/CRA 里最常见的两个「不可直接照搬」写法迁到 Vite —— require.context → import.meta.glob，process.env.REACT_APP_* → import.meta.env.VITE_*",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.1.0"
+  }
+}

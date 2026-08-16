@@ -1,0 +1,17 @@
+{
+  "name": "demo-02-03-svelte",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Svelte 5 接入 Vite：@sveltejs/vite-plugin-svelte，编译期框架",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "svelte": "^5.56.4",
+    "vite": "^8.1.0"
+  }
+}

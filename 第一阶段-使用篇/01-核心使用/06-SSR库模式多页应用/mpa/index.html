@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MPA · 首页</title>
+  </head>
+  <body>
+    <h1>首页 index.html</h1>
+    <p id="msg"></p>
+    <nav><a href="/admin.html">后台</a> | <a href="/login/">登录</a></nav>
+    <script type="module">
+      import { banner } from './shared/log.js';
+      document.querySelector('#msg').textContent = banner('首页');
+    </script>
+  </body>
+</html>

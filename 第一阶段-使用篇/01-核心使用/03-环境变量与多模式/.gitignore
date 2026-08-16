@@ -1,0 +1,4 @@
+node_modules
+dist
+# 约定：本地私密配置不提交
+*.local

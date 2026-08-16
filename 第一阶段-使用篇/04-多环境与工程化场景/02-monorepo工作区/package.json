@@ -1,0 +1,15 @@
+{
+  "name": "demo-04-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "npm workspaces monorepo：app 直接消费内部包源码，跨包 HMR + dedupe + 依赖外部化",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @demo/web",
+    "build": "npm run build -w @demo/web",
+    "preview": "npm run preview -w @demo/web"
+  }
+}

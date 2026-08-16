@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>按需编译 vs 打包 · Vite 定位演示</title>
+  </head>
+  <body>
+    <h1>打开 Network 面板，按 JS 过滤后刷新本页</h1>
+    <p>dev 模式下你会看到每个 <code>modules/*.js</code> 都是一条独立请求（按需编译）。</p>
+    <ul id="list"></ul>
+    <!-- 入口模块：浏览器原生 ESM，dev 期不打包 -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+/* CSS Modules：类名会被局部哈希化，避免全局污染。 */
+.primary {
+  color: #fff;
+  background: #646cff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  cursor: pointer;
+}

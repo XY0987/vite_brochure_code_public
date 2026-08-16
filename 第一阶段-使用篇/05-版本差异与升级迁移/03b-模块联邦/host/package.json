@@ -1,0 +1,16 @@
+{
+  "name": "demo-05-03b-mf-host",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Module Federation 宿主应用：运行时远程加载 remote 暴露的 widget 模块",
+  "scripts": {
+    "dev": "vite --port 5173 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --port 5173 --strictPort"
+  },
+  "devDependencies": {
+    "@module-federation/vite": "^1.16.0",
+    "vite": "^8.1.0"
+  }
+}

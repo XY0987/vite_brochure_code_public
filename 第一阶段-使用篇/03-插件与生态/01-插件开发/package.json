@@ -1,0 +1,15 @@
+{
+  "name": "demo-03-01-plugin-dev",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "从零写 Vite 插件：虚拟模块 / dev 中间件 / HTML 注入 / 自定义 HMR / enforce 顺序",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.1.0"
+  }
+}

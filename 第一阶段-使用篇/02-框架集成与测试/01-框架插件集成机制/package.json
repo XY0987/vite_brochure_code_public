@@ -1,0 +1,15 @@
+{
+  "name": "demo-02-01-framework-plugin",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "手写一个 Vite 框架插件：编译自定义 .myx 文件并注入 HMR",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.1.0"
+  }
+}

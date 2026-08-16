@@ -1,0 +1,14 @@
+{
+  "//": "【隔离层示例·非运行配置】把这段 overrides 合并进你的 package.json，再重装依赖，",
+  "//note1": "项目里所有 import 'vite' 与 vite 命令就实际跑在 Rolldown 版上——业务代码与 vite.config 一行不改。",
+  "//note2": "验证通过就保留；出问题删掉这段、重装依赖即秒回滚到原引擎。",
+  "//note3": "这是 Vite 7 时代「不升大版本、提前试 Rolldown」的做法；Vite 8 已默认 Rolldown，无需再这么做。",
+  "//pkgmgr": "npm 用 overrides；pnpm 用 pnpm.overrides；yarn 用 resolutions，语义相同。",
+
+  "devDependencies": {
+    "vite": "^7.0.0"
+  },
+  "overrides": {
+    "vite": "npm:rolldown-vite@7.3.1"
+  }
+}

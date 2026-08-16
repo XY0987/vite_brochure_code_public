@@ -1,0 +1,18 @@
+{
+  "name": "demo-02-04-vitest",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Vitest 复用 vite.config：别名/TS/转换管线零额外配置",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest",
+    "test:run": "vitest run"
+  },
+  "devDependencies": {
+    "jsdom": "^29.1.1",
+    "vite": "^8.1.0",
+    "vitest": "^4.1.9"
+  }
+}

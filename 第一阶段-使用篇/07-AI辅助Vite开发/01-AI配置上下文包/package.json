@@ -1,0 +1,10 @@
+{
+  "name": "demo-07-01-ai-config-context",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "采集项目上下文（Node/包管理器/Vite 与插件真实版本/项目类型/现有配置），打成可粘贴给 AI 的上下文块",
+  "scripts": {
+    "context": "node scripts/collect-context.mjs"
+  }
+}

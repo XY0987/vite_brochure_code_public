@@ -1,0 +1,17 @@
+// 这里直接用了全局变量 $brand / $radius（未手动 @use，由 additionalData 注入）。
+body {
+  font-family: system-ui, sans-serif;
+  margin: 2rem;
+}
+
+.card {
+  border: 1px solid #eee;
+  border-radius: $radius;
+  padding: 1rem;
+  // user-select 需要前缀，用于观察 autoprefixer 是否加上 -webkit- 等
+  user-select: none;
+}
+
+h1 {
+  color: $brand;
+}

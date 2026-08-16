@@ -1,0 +1,16 @@
+{
+  "name": "demo-05-04-rolldown-isolation",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "企业升级实战：rolldown-vite drop-in 隔离层的用法演示 + 一个可运行的「升级体检脚本」扫描配置里的过时写法",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "audit": "node scripts/upgrade-audit.mjs"
+  },
+  "devDependencies": {
+    "vite": "^8.1.0"
+  }
+}

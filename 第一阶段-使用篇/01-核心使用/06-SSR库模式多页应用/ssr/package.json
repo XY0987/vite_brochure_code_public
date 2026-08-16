@@ -1,0 +1,16 @@
+{
+  "name": "demo-06-ssr",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "最小 SSR：Express + Vite middleware mode + ssrLoadModule",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "vite": "^8.1.0"
+  }
+}

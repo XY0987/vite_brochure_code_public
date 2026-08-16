@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo 03-01 · 插件开发</title>
+  </head>
+  <body>
+    <h1>插件开发 demo</h1>
+    <p>打开控制台（Console）观察各插件的输出。</p>
+    <ul>
+      <li>构建/启动信息（虚拟模块）：<code id="build-info">加载中…</code></li>
+      <li>mock 接口 /api/hello：<code id="api-result">点击下方按钮</code></li>
+    </ul>
+    <button id="fetch-btn">请求 /api/hello（mock 中间件）</button>
+    <p>试试改 <code>src/notes.txt</code> 保存，看控制台的自定义 HMR 消息。</p>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

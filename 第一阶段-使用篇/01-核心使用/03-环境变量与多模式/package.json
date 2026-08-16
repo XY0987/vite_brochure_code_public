@@ -1,0 +1,16 @@
+{
+  "name": "demo-03-env-mode",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "环境变量前缀安全闸门 + 多模式（development/production/staging）演示",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:staging": "vite build --mode staging",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.1.0"
+  }
+}

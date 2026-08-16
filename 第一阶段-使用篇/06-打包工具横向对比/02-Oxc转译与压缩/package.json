@@ -1,0 +1,14 @@
+{
+  "name": "demo-06-02-oxc",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "用 Oxc 把一段 TS+JSX 转译成普通 JS，再压缩，直观感受「工具链 ≠ 打包器」：输入一个文件、输出一个文件，全程没有打包",
+  "scripts": {
+    "demo": "node demo.mjs"
+  },
+  "devDependencies": {
+    "oxc-minify": "^0.137.0",
+    "oxc-transform": "^0.137.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "demo-03-02-rollup-hooks",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "一个只用 Rollup 通用钩子的插件，观察 dev（插件容器模拟）与 build（Rolldown）的钩子差异",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.1.0"
+  }
+}

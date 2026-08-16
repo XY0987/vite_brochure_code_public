@@ -1,0 +1,16 @@
+{
+  "name": "demo-05-02-config-migration",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "配置迁移对照：同一个项目，用「旧写法(rollupOptions + manualChunks)」与「新写法(rolldownOptions + codeSplitting)」各构建一次，证明兼容层让旧配置仍可跑、新写法是当前推荐",
+  "scripts": {
+    "build:old": "vite build --config vite.config.old.mjs",
+    "build:new": "vite build --config vite.config.new.mjs",
+    "build": "npm run build:old && npm run build:new",
+    "compare": "npm run build && node scripts/compare.mjs"
+  },
+  "devDependencies": {
+    "vite": "^8.1.0"
+  }
+}

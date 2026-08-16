@@ -1,0 +1,16 @@
+{
+  "name": "demo-05-01-version-probe",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "版本探针：打印 Vite 8 内部各引擎版本（Rolldown / esbuild / Rollup 兼容层；Oxc 内嵌于 Rolldown，无独立导出版本），并在 build 时观察 Rolldown 驱动构建",
+  "scripts": {
+    "info": "node scripts/print-versions.mjs",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.1.0"
+  }
+}

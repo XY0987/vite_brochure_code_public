@@ -1,0 +1,16 @@
+{
+  "name": "demo-04-ssr-pitfalls",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "SSR 四大工程坑位现场：水合不一致 / 服务端外部化 / 条件导入 / 环境变量泄露",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "vite": "^8.1.0"
+  }
+}

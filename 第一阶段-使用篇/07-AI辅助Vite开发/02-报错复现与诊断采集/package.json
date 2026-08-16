@@ -1,0 +1,11 @@
+{
+  "name": "demo-07-02-error-diagnostics",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "复现一个确定性的 CJS/ESM 互操作报错，并一键生成 SCROL 有效提问的诊断信息块",
+  "scripts": {
+    "reproduce": "node scripts/reproduce.mjs",
+    "diagnostics": "node scripts/collect-diagnostics.mjs"
+  }
+}

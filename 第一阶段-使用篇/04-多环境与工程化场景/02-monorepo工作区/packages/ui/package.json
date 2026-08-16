@@ -1,0 +1,11 @@
+{
+  "name": "@demo/ui",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "内部 UI 包：关键在于 exports 指向【源码】而非打包产物，这样被 app 消费时才能享受 Vite 的按需编译 + HMR",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "main": "./src/index.js"
+}

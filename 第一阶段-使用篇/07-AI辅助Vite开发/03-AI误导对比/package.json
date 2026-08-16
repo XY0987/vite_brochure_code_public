@@ -1,0 +1,11 @@
+{
+  "name": "demo-07-03-ai-misleading",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "用规则体检脚本扫出 vite.config 里 AI 式的过时/混搭写法，并给 V8 正解方向",
+  "scripts": {
+    "check:stale": "node scripts/check-stale-config.mjs examples/ai-stale.config.js",
+    "check:correct": "node scripts/check-stale-config.mjs examples/correct.config.js"
+  }
+}
